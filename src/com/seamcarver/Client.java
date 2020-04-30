@@ -12,7 +12,7 @@ public class Client {
 
     public static void main(String[] args) {
         if (args.length != 4) {
-            StdOut.println("Usage:\njava ResizeDemo [image filename] [num cols to remove] [num rows to remove]");
+            StdOut.println("Usage:\njava ResizeDemo [image filename] [num cols to remove] [num rows to remove] [parallel carving mode]");
             return;
         }
 
